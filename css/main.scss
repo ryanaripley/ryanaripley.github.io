@@ -15,7 +15,7 @@ body {
   background: rgb(51,51,51);
   color: white;
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -23,7 +23,7 @@ body {
   body { 
     background: url(https://googledrive.com/host/0B4Bh1nsp-UlMVDBkZHhBeUY4SDg/tools_900.jpg) no-repeat center center fixed;
     background-size: cover;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -85,9 +85,8 @@ main {
 }
 
 footer {
-  font-size: .8em;
   bottom: .5em;
-  right: .5em;
   opacity: .6;
   position: absolute;
+  right: .5em;
 }

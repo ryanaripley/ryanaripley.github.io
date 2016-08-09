@@ -23,7 +23,7 @@ body {
 
 @media screen and (max-width: 600px) { 
   body { 
-    background: url(https://googledrive.com/host/0B4Bh1nsp-UlMVDBkZHhBeUY4SDg/tools_900.jpg) no-repeat center center fixed;
+    background: url(../images/tools_900.jpg) no-repeat center center fixed;
     background-size: cover;
     font-size: 14px;
   }
@@ -31,7 +31,7 @@ body {
 
 @media screen and (min-width: 601px) { 
   body { 
-    background: url(https://googledrive.com/host/0B4Bh1nsp-UlMVDBkZHhBeUY4SDg/tools_1400.jpg) no-repeat center center fixed;
+    background: url(../images/tools_1400.jpg) no-repeat center center fixed;
     background-size: cover;
   }
 }
@@ -49,6 +49,10 @@ p {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  margin-bottom: .15em;
 }
 
 a, a:visited {

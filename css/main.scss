@@ -1,10 +1,16 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$padding: 3rem;
+
+$bp-medium: 680px;
+$bp-large: 1000px;
+
+$font-light: 300;
+$font-normal: 300;
+$font-heavy: 700;
+
 html {
-  background: #47352B;
-  background: radial-gradient(#47352B, #2B2118);
   box-sizing: border-box;
 }
 
@@ -14,76 +20,159 @@ html {
   padding: 0;
 }
 body {
-  background: rgb(51,51,51);
-  color: white;
+  color: rgb(51,51,51);
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
-
-@media screen and (max-width: 600px) { 
-  body { 
-    background: url(../images/tools_900.jpg) no-repeat center center fixed;
-    background-size: cover;
-    font-size: 14px;
+@media (min-width: $bp-medium) {
+  body {
+    font-size: 18px
+  }
+}
+@media (min-width: $bp-large) {
+  body {
+    font-size: 20px
   }
 }
 
-@media screen and (min-width: 601px) { 
-  body { 
-    background: url(../images/tools_1400.jpg) no-repeat center center fixed;
-    background-size: cover;
+.site-header {
+  background: white;
+  padding: 0; 
+  text-align: center;
+}
+
+@media (min-width: $bp-medium) {
+  .site-header {
+    display: flex;
+  }
+}
+
+.site-title {
+  font-size: 1.2em;
+  line-height: 1.4rem;
+  font-weight: $font-heavy;
+  margin: 0;
+  padding: 1em $padding;
+}
+.site-title span {
+  font-weight: 700;
+}
+.site-title a,
+.site-title a:visited {
+  color: rgb(80,80,80);
+  transition: color .15s ease-in-out;
+}
+.site-title a:hover,
+.site-title a:target {
+  color: black;
+}
+
+@media (min-width: $bp-medium) {
+  .site-navigation {
+    right: 1rem;
+    padding-top: 1em;
+    position: absolute;
+  }
+}
+
+.site-navigation ul {
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.site-navigation ul li {
+  display: inline;
+}
+
+.site-navigation a,
+.site-navigation a:visited {
+  color: rgb(120,120,120);
+  font-size: .9em;
+  display: inline-block;
+  padding: .3em 1em;
+  transition: color .1s ease-in-out;
+}
+
+.site-navigation a:hover,
+.site-navigation a:target {
+  color: black;
+}
+
+.page-content > * {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+}
+
+.page-header {
+  background: #2F8F24;
+  background: linear-gradient(to right, #63A65B , #7ED475);
+  margin: 0;
+  min-width: 100%;
+  padding: 4em $padding;
+  width: auto;
+}
+
+@media (min-width: $bp-large) {
+  .page-header {
+    padding: 6em $padding;
+  }
+}
+
+.page-title {
+  font-size: 1.4em;
+  padding: 0 2%;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .page-title {
+    font-size: 1.8em;
+    padding: 0 14%;
   }
 }
 
 h1 {
-  font-weight: 400; 
-  letter-spacing: .1em;
+  font-weight: 300; 
+  letter-spacing: .15em;
   margin-bottom: .25em;
   text-transform: uppercase;
 }
 
+h2 {
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: .15em;
+  margin: 2.3em 0 .7em;
+  text-transform: uppercase;
+  
+}
+
+p, ul, blockquote {
+  color: rgb(100,100,100);
+  line-height: 1.5;
+}
+
 p {
-  margin-bottom: .4em;
+  margin: 1.5em 0;
 }
 
 ul {
-  list-style-type: none;
+  padding-left: 2em;
 }
 
-li {
-  margin-bottom: .15em;
+img {
+  max-width: 100%;
 }
 
 a, a:visited {
-  color: rgba(255,255,255,1);
-  transition: color .1s ease-in-out;
+  color: blue;
+  text-decoration: none;
 }
 
-a:hover, a:target {
-  color: rgba(255,255,255,.8); 
-}
-
-/* Layout */
-html {
-  height: 100vh;
-}
-
-body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 100vh;
-}
-
-main {
-  text-align: center;
-  text-shadow: 3px 2px 4px rgba(0,0,0,.8);
-}
-
-footer {
-  bottom: .5em;
-  opacity: .6;
-  position: absolute;
-  right: .5em;
+.site-footer {
+  max-width: 40em;
+  margin: 4em auto 3em;
+  width: 86%;
 }

@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Contact us
+title: Contact
 permalink: /contact/
+hero-gradient:
+  - '#C99143'
+  - '#E8A84D'
 ---
 
 This is the contact page.

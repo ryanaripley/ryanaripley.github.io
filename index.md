@@ -1,11 +1,9 @@
 ---
 layout: default
+title: Web designer and developer
 ---
 
   
-  <header class="page-header"> 
-    <h1 class="page-title">Website designer and developer</h1>
-  </header>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aspernatur accusantium quod saepe nam quo atque autem animi placeat facere deserunt doloremque veritatis, incidunt, quibusdam vero voluptatem. Vero, fugiat. Provident!</p>
 
   <h2>Heading 2</h2>

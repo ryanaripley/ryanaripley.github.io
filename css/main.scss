@@ -10,6 +10,15 @@ $font-light: 300;
 $font-normal: 300;
 $font-heavy: 700;
 
+$color-primary: red;
+$color-secondary: blue;
+
+$color-white: white;
+$color-gray: rgb(151,151,151);
+$color-black: rgb(51,51,51);
+
+@import 'forms';
+
 html {
   box-sizing: border-box;
 }

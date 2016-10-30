@@ -3,7 +3,6 @@
   padding: 0; 
   text-align: center;
 }
-
 @media (min-width: $bp-medium) {
   .site-header {
     display: flex;
@@ -28,6 +27,7 @@
 .site-title a:hover,
 .site-title a:target {
   color: black;
+  text-decoration: none;
 }
 
 @media (min-width: $bp-medium) {
@@ -39,7 +39,8 @@
 }
 
 .site-navigation ul {
-  margin-bottom: 1em;
+  line-height: 1em;
+  margin: 0 0 1em !important;
   padding: 0;
 }
 
@@ -59,4 +60,5 @@
 .site-navigation a:hover,
 .site-navigation a:target {
   color: black;
+  text-decoration: none;
 }

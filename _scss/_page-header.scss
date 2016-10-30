@@ -1,0 +1,26 @@
+.page-header {
+  background: #2F8F24;
+  background: linear-gradient(to right, #63A65B, #7ED475);
+  margin: 0;
+  min-width: 100%;
+  padding: 4em $padding;
+  width: auto;
+}
+
+@media (min-width: $bp-large) {
+  .page-header {
+    padding: 6em $padding;
+  }
+}
+
+.page-title {
+  font-size: 1.4em;
+  padding: 0 2%;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .page-title {
+    font-size: 1.8em;
+    padding: 0 14%;
+  }
+}

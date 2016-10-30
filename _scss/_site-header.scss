@@ -1,0 +1,62 @@
+.site-header {
+  background: white;
+  padding: 0; 
+  text-align: center;
+}
+
+@media (min-width: $bp-medium) {
+  .site-header {
+    display: flex;
+  }
+}
+
+.site-title {
+  font-size: 1.2em;
+  line-height: 1.4rem;
+  font-weight: $font-heavy;
+  margin: 0;
+  padding: 1em $padding;
+}
+.site-title span {
+  font-weight: 700;
+}
+.site-title a,
+.site-title a:visited {
+  color: rgb(80,80,80);
+  transition: color .15s ease-in-out;
+}
+.site-title a:hover,
+.site-title a:target {
+  color: black;
+}
+
+@media (min-width: $bp-medium) {
+  .site-navigation {
+    right: 1rem;
+    padding-top: 1em;
+    position: absolute;
+  }
+}
+
+.site-navigation ul {
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.site-navigation ul li {
+  display: inline;
+}
+
+.site-navigation a,
+.site-navigation a:visited {
+  color: rgb(120,120,120);
+  font-size: .9em;
+  display: inline-block;
+  padding: .3em 1em;
+  transition: color .1s ease-in-out;
+}
+
+.site-navigation a:hover,
+.site-navigation a:target {
+  color: black;
+}

@@ -1,0 +1,38 @@
+/* Layout */
+ 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-size: 16px;
+}
+
+@media (min-width: $bp-medium) {
+  body {
+    font-size: 18px
+  }
+}
+@media (min-width: $bp-large) {
+  body {
+    font-size: 20px
+  }
+}
+
+.page-content > * {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+}
+
+.site-footer {
+  max-width: 40em;
+  margin: 4em auto 3em;
+  width: 86%;
+}

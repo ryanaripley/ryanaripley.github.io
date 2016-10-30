@@ -1,0 +1,38 @@
+
+h1 {
+  font-weight: 300; 
+  letter-spacing: .15em;
+  margin-bottom: .25em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: .15em;
+  margin: 2.3em 0 .7em;
+  text-transform: uppercase;
+  
+}
+
+p, ul, blockquote {
+  color: rgb(100,100,100);
+  line-height: 1.5;
+}
+
+p {
+  margin: 1.5em 0;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+}

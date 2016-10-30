@@ -3,13 +3,13 @@
   background: linear-gradient(to right, #63A65B, #7ED475);
   margin: 0;
   min-width: 100%;
-  padding: 4em $padding;
+  padding: 5em $padding;
   width: auto;
 }
 
 @media (min-width: $bp-large) {
   .page-header {
-    padding: 6em $padding;
+    padding: 7em $padding;
   }
 }
 

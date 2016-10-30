@@ -4,9 +4,9 @@
   
   <nav class="site-navigation">
     <ul>
-      <li><a href="{{ site.baseurl }}/work">Work</a></li>
-      <li><a href="{{ site.baseurl }}/about">About</a></li>
-      <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+		  {% assign pages_list = site.pages | sort : "weight" %}
+		  {% assign group = 'navigation' %}
+		  {% include pages_list.html %}
     </ul>
   </nav>
   

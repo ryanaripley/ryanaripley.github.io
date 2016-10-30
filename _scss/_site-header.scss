@@ -50,11 +50,16 @@
 
 .site-navigation a,
 .site-navigation a:visited {
-  color: rgb(120,120,120);
+  color: $color-gray;
   font-size: .9em;
   display: inline-block;
   padding: .3em 1em;
   transition: color .1s ease-in-out;
+}
+
+.site-navigation a.active,
+.site-navigation a.active:visited {
+  color: black;
 }
 
 .site-navigation a:hover,

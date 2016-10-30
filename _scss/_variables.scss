@@ -7,8 +7,14 @@ $font-light: 300;
 $font-normal: 300;
 $font-heavy: 700;
 
-$color-primary: #2F8F24; /* green */
-$color-secondary: #5464AB; /* blue */
+$color-green: #63A65B;
+$color-blue: #5464AB;
+$color-orange: #C99143;
+$color-purple: #9375AB;
+$color-red: #C7786C;
+
+$color-primary: $color-green;
+$color-secondary: $color-blue;
 
 $color-white: white;
 $color-gray: rgb(100,100,100);

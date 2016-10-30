@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Get in touch
+title: Contact
 permalink: /contact/
+group: "navigation"
+weight: 4
 hero-gradient:
   - '#C99143'
   - '#E8A84D'

@@ -2,6 +2,8 @@
 layout: default
 title: About
 permalink: /about/
+group: "navigation"
+weight: 3
 hero-gradient:
   - '#5464AB'
   - '#7288E8'

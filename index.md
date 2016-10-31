@@ -3,8 +3,7 @@ layout: default
 title: Web designer and developer
 ---
 
-  
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aspernatur accusantium quod saepe nam quo atque autem animi placeat facere deserunt doloremque veritatis, incidunt, quibusdam vero voluptatem. Vero, fugiat. Provident!</p>
+I like to help organizations 
 
   <h2>Heading 2</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aspernatur accusantium quod saepe nam quo atque autem animi placeat facere deserunt doloremque veritatis, incidunt, quibusdam vero voluptatem. Vero, fugiat. Provident!</p>

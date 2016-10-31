@@ -5,9 +5,9 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: $color-white;
-  border: 1px solid $color-gray;
-  color: $color-gray;
+  background-color: $color-secondary;
+  border: 0;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-size: .9em;
@@ -16,8 +16,7 @@ input[type="button"] {
   padding: .5em 1em;
   text-align: center;
   text-decoration: none !important;
-  transition: background .1s ease-in-out,
-              border .1s ease-in-out;
+  transition: background .1s ease-in-out;
   white-space: nowrap; 
 }
 .button:hover,
@@ -30,8 +29,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  background: rgba($color-secondary, .5);
-  border-color: rgba($color-secondary, .5);
+  background: rgba($color-secondary, .8);
   outline: 0; 
 }
 .button.button-primary,
@@ -40,7 +38,6 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   background-color: $color-primary;
-  border-color: $color-primary; 
 }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -52,8 +49,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: rgba($color-secondary, .5);
-  border-color: rgba($color-secondary, .5);
+  background: rgba($color-primary, .8);
+  border-color: rgba($color-primary, .8);
 }
 
 /* Forms */

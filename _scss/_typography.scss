@@ -1,5 +1,51 @@
+$font-primary: "Lora", Times, serif;
+$font-primary-weight: 400;
+$font-secondary: "Montserrat", Arial, sans-serif;
+$font-secondary-weight: 400;
+$font-secondary-weight-heavy: 700;
+
 body {
   color: $color-black;
-  font-family: 'Lato', sans-serif;
-  font-weight: $font-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-secondary;
+  font-weight: $font-secondary-weight-heavy;
+  line-height: 1.1;
+  margin-top: 1.5em;
+}
+h1, h2 {
+  letter-spacing: -.05em;
+  text-transform: uppercase;
+}
+p, ul, ol, blockquote {
+  font-family: $font-primary;
+  font-weight: $font-primary-weight;
+  line-height: 1.5;
+  margin-bottom: 1.4em;
+  a:hover, a:target {
+    text-decoration: underline;
+  }
+}
+p {
+  margin-top: 0;
+}
+ul, ol {
+  padding-left: 1.8em;
+}
+blockquote {
+  border-left: .6em solid $color-primary;
+  font-style: italic;
+  margin-left: .5em;
+  padding-left: .7em;
+  em {
+    font-style: normal;
+  }
+}
+pre {
+  padding: $padding/2 $padding;
+}
+code {
+  font-family: "Courier New", monospace;
+  font-size: .9em;
 }

@@ -12,6 +12,7 @@
 .site-title {
   font-size: 1.2em;
   line-height: 1.4rem;
+
   font-weight: $font-heavy;
   margin: 0;
   padding: 1em $padding;
@@ -22,6 +23,7 @@
 .site-title a,
 .site-title a:visited {
   color: rgb(80,80,80);
+  letter-spacing: .1em;
   transition: color .15s ease-in-out;
 }
 .site-title a:hover,

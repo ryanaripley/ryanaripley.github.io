@@ -5,11 +5,14 @@
 
   <body>
 
-    {% include header.html %}
-
     <main>
 
-      <header class="page-header" style="background: linear-gradient(to right, {{ page.hero-gradient[0] }}, {{ page.hero-gradient[1] }}"> 
+
+      <header class="page-header" > 
+
+        {% include header.html %}
+
+
         <h1 class="page-title">{{ page.title }}</h1>
       </header>
 

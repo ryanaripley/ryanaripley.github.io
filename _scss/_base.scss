@@ -3,7 +3,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h2, h3 {
   font-weight: $font-normal; 
-  text-transform: uppercase;
 }
 h1 {
   font-size: 1.4em;
@@ -22,7 +21,13 @@ h4, h5, h6 {
 p, ol, ul, blockquote, code {
   color: $color-gray;
   line-height: 1.5;
+  font-size: 1.2em;
   margin: 1.5em 0;
+}
+
+p.highlight {
+  color: $color-black;
+  font-size: 1.6em;
 }
 
 ol, ul {
@@ -44,4 +49,9 @@ a:hover, a:target {
 pre {
   background: rgba($color-primary, .2);
   padding: 1em 2em;
+}
+
+::selection {
+  background: rgba($color-green, .6);
+  color: black;
 }

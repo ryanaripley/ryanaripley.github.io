@@ -1,12 +1,10 @@
 ---
 ---
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Montserrat:400,700);
 @import 'normalize';
 @import 'variables';
 @import 'typography';
 @import 'base';
 @import 'forms';
 @import 'layout';
-@import 'siteheader';
-@import 'pageheader';
-
+@import 'header';
+@import 'page-header';

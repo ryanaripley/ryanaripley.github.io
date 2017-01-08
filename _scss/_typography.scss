@@ -1,8 +1,9 @@
-$font-primary: "Lora", Times, serif;
+$font-primary: "Open Sans", Arial, sans-serif;
 $font-primary-weight: 400;
-$font-secondary: "Montserrat", Arial, sans-serif;
+$font-primary-weight-heavy: 700;
+$font-secondary: "Alfa Slab One", Arial, sans-serif;
 $font-secondary-weight: 400;
-$font-secondary-weight-heavy: 700;
+$font-secondary-weight-heavy: 400;
 
 body {
   color: $color-black;
@@ -15,8 +16,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
 }
 h1, h2 {
-  letter-spacing: -.05em;
-  text-transform: uppercase;
 }
 p, ul, ol, blockquote {
   font-family: $font-primary;
@@ -30,6 +29,7 @@ p, ul, ol, blockquote {
 p {
   margin-top: 0;
 }
+
 ul, ol {
   padding-left: 1.8em;
 }

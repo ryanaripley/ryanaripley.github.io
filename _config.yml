@@ -43,6 +43,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      hero-gradient: 
-        - '#63A65B' 
-        - '#7ED475'
+      hero-image: "tools-1400.jpg"

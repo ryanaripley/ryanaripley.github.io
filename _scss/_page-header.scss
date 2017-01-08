@@ -1,15 +1,15 @@
 .page-header {
-  background: $color-primary;
-  background: linear-gradient(to right, #63A65B, #7ED475);
-  background: url(../images/tools-1400.jpg) no-repeat center center fixed;
+  background: #3f362d;
+  background: linear-gradient(to bottom, #3b342d, #463c32) no-repeat center center fixed; 
   background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   min-width: 100%;
   padding: 12.5em $padding 6em;
   width: auto;
 }
 
-@media (min-width: $bp-large) {
+@media (min-width: $bp-medium) {
   .page-header {
     padding: 10em $padding;
   }
@@ -17,7 +17,6 @@
 
 .page-title {
   color: white;
-  font-size: 1.8em;
   margin: 0;
   padding: 0 2%;
   text-align: center;

@@ -26,6 +26,9 @@ github_username:  ryanaripley
 gems:
   - octopress-autoprefixer
 
+  # Server Config options
+livereload: true     # You no longer need to include --livereload
+
 # Build settings
 markdown: kramdown
 permalink: pretty

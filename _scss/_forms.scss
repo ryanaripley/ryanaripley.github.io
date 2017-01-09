@@ -30,7 +30,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  box-shadow: .3em .2em 0 $color-primary;
+  box-shadow: $shadow;
   outline: 0; 
 }
 
@@ -48,9 +48,9 @@ select {
   border: 1px solid $color-gray;
   border-radius: 0;
   box-shadow: none;
-  font-size: .8em;
+  font-size: 1em;
   height: 2.2em;
-  margin-bottom: .8em;
+  margin-bottom: 1.2em;
   padding: 6px 1em;
   min-width: 60%;
   transition: box-shadow .1s ease-in-out;
@@ -86,7 +86,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  box-shadow: .4em .3em 0 $color-primary;
+  box-shadow: $shadow;
   outline: 0; 
 }
 

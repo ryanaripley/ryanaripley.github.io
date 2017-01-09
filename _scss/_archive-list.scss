@@ -1,0 +1,41 @@
+.archive-list {
+	border-top: 1px solid $color-gray;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.archive-item a {
+	border-bottom: 1px solid $color-gray;
+	color: inherit;
+	display: flex;
+	padding: 2em 1em; 
+	transition: background .1s ease-in-out;
+}
+
+.archive-item a:hover,
+.archive-item a:target {
+	background: rgba($color-primary, .2);
+	text-decoration: none;
+
+}
+
+.archive-image {
+	margin: 0 2em 0 0;
+}
+
+.archive-info {
+	h3 {
+		font-family: $font-primary;
+		font-size: 1.2em;
+		font-weight: $font-primary-weight-heavy;
+		margin: 0 0 .2em;
+	}
+
+	.archive-tags {
+		font-size: .8em;
+		font-style: italic;
+		margin-bottom: 1em; 
+	}
+
+}

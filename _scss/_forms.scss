@@ -5,20 +5,21 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: $color-secondary;
-  border: 0;
-  color: black;
+  background: white;
+  border: 1px solid $color-black;
+  color: $color-black;
   cursor: pointer;
   display: inline-block;
-  font-size: .9em;
+  font-size: 1em;
   margin-bottom: .5em;
   margin-right: .5em;
   padding: .5em 1em;
   text-align: center;
   text-decoration: none !important;
-  transition: background .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
   white-space: nowrap; 
 }
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -29,28 +30,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  background: rgba($color-secondary, .8);
+  box-shadow: .3em .2em 0 $color-primary;
   outline: 0; 
-}
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  background-color: $color-primary;
-}
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  background: rgba($color-primary, .8);
-  border-color: rgba($color-primary, .8);
 }
 
 /* Forms */
@@ -72,7 +53,9 @@ select {
   margin-bottom: .8em;
   padding: 6px 1em;
   min-width: 60%;
+  transition: box-shadow .1s ease-in-out;
 }
+
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -86,12 +69,14 @@ textarea {
      -moz-appearance: none;
           appearance: none; 
 }
+
 textarea {
   min-height: 8em;
   padding-top: .5em;
   padding-bottom: .5em;
   width: 100%;
 }
+
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -101,23 +86,27 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid rgba($color-secondary, .5);
+  box-shadow: .4em .3em 0 $color-primary;
   outline: 0; 
 }
+
 label,
 legend {
   display: block;
   font-weight: normal; 
   margin-bottom: .5rem;
 }
+
 fieldset {
   border-width: 0; 
   padding: 0;
 }
+
 input[type="checkbox"],
 input[type="radio"] {
   display: inline; 
 }
+
 label > .label-body {
   display: inline-block;
   font-weight: normal; 

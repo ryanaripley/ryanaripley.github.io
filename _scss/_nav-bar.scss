@@ -1,4 +1,6 @@
-.site-header {
+/* Nav bar at top */
+
+.nav-bar {
   background: white;
   padding: 0; 
   position: absolute;
@@ -7,8 +9,9 @@
     left: 0;
   text-align: center;
 }
+
 @media (min-width: $bp-medium) {
-  .site-header {
+  .nav-bar {
     background: none;
     display: flex;
   }
@@ -22,18 +25,23 @@
   margin: 0;
   padding: 1em $padding;
 }
+
 .site-title span {
 }
+
 .site-title a,
 .site-title a:visited {
   color: $color-black;
   transition: opacity .15s ease-in-out;
   text-decoration: none;
 }
+
 .site-title a:hover,
 .site-title a:target {
   opacity: .7;
 }
+
+/* Main menu */
 
 .site-navigation ul {
   line-height: 1em;
@@ -77,6 +85,6 @@
   .site-navigation {
     margin: 0 2.5rem 0 auto;
     padding-top: 1em;
-
   }
+
 }

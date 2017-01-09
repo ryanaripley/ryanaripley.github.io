@@ -13,26 +13,52 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-secondary;
   font-weight: $font-secondary-weight-heavy;
   line-height: 1.1;
-  margin-top: 1.5em;
+  margin: 2.3em 0 .7em;
 }
-h1, h2 {
+
+h1, h2, h3 {
+  font-weight: $font-normal; 
 }
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4, h5, h6 {
+  font-size: 1.4em;
+  font-weight: $font-normal;
+}
+
 p, ul, ol, blockquote {
+  color: $color-gray;
   font-family: $font-primary;
+  font-size: 1.2em;
   font-weight: $font-primary-weight;
   line-height: 1.5;
-  margin-bottom: 1.4em;
-  a:hover, a:target {
-    text-decoration: underline;
-  }
+  margin: 1.5em 0;
 }
+
 p {
   margin-top: 0;
 }
 
-ul, ol {
-  padding-left: 1.8em;
+p.highlight {
+  color: $color-black;
+  font-size: 1.6em;
 }
+
+ul, ol {
+  padding-left: 2em;
+}
+
 blockquote {
   border-left: .6em solid $color-primary;
   font-style: italic;
@@ -42,10 +68,26 @@ blockquote {
     font-style: normal;
   }
 }
+
 pre {
+  background: rgba($color-primary, .2);
   padding: $padding/2 $padding;
 }
+
 code {
   font-family: "Courier New", monospace;
   font-size: .9em;
+}
+
+a, a:visited {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+a:hover, a:target {
+  text-decoration: underline;
+}
+
+a:hover, a:target {
+  text-decoration: underline;
 }

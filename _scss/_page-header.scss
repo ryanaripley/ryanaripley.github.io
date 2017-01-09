@@ -3,7 +3,7 @@
   background: linear-gradient(to bottom, #3b342d, #463c32) no-repeat center center fixed; 
   background-size: cover;
   background-attachment: fixed;
-  margin: 0;
+  margin: 0 0 3em;
   min-width: 100%;
   padding: 12.5em $padding 6em;
   width: auto;
@@ -21,6 +21,7 @@
   padding: 0 2%;
   text-align: center;
 }
+
 @media (min-width: 800px) {
   .page-title {
     font-size: 3.6em;

@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-  font-family: "Lato", sans-serif; /* 1 */
+  font-family: "Open Sans", Arial, sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -41,15 +41,6 @@ section {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -226,11 +217,12 @@ audio:not([controls]) {
 }
 
 /**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on images inside links in IE 10- and limit max width.
  */
 
 img {
   border-style: none;
+  max-width: 100%
 }
 
 /**
@@ -458,4 +450,12 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/* Odds and ends added by Ryan
+   ========================================================================== */
+
+::selection {
+  background: rgba($color-green, .6);
+  color: black;
 }

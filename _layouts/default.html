@@ -5,38 +5,33 @@
 
   <body>
 
-    <main>
+    <header class="page-header" style="background-image:url({{ site.baseurl }}/images/heroes/{{ page.hero-image }})"> 
 
+      <div class="nav-bar">
 
-      <header class="page-header" style="background-image:url({{ site.baseurl }}/images/heroes/{{ page.hero-image }})"> 
+        <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1> 
+        
+        <nav class="site-navigation">
 
-        <div class="site-header">
+          <ul>{% 
+            include pages_list.html %}
+          </ul>
 
-          <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1> 
-          
-          <nav class="site-navigation">
-            <ul>
-              {% assign pages_list = site.pages | sort : "weight" %}
-              {% assign group = 'navigation' %}
-              {% include pages_list.html %}
-            </ul>
-          </nav>
-          
-        </div>
+        </nav>
+        
+      </div>
 
-        <h1 class="page-title">{{ page.title }}</h1>
+      <h1 class="page-title">{{ page.title }}</h1>
 
-      </header>
+    </header>
 
-      <section class="page-content">
+    <main class="page-content">
 
-        {{ content }}
-
-      </section>
+    {{ content }}
 
     </main>
 
-    {% include footer.html %}
+{% include footer.html %}
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script> -->

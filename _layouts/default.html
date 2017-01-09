@@ -10,10 +10,22 @@
 
       <header class="page-header" style="background-image:url({{ site.baseurl }}/images/heroes/{{ page.hero-image }})"> 
 
-        {% include header.html %}
+        <div class="site-header">
 
+          <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1> 
+          
+          <nav class="site-navigation">
+            <ul>
+              {% assign pages_list = site.pages | sort : "weight" %}
+              {% assign group = 'navigation' %}
+              {% include pages_list.html %}
+            </ul>
+          </nav>
+          
+        </div>
 
         <h1 class="page-title">{{ page.title }}</h1>
+
       </header>
 
       <section class="page-content">

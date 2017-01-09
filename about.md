@@ -4,10 +4,7 @@ title: About
 permalink: /about/
 group: "navigation"
 weight: 3
-hero-image: "tools-1400.jpg"
-hero-gradient:
-  - '#5464AB'
-  - '#7288E8'
+hero-image: "tools_1400.jpg"
 ---
 
 <h1>Heading 1 </h1>

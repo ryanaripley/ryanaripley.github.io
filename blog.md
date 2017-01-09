@@ -4,9 +4,6 @@ title: Blog
 permalink: /blog/
 group: "navigation"
 weight: 2
-hero-gradient:
-  - '#C7786C'
-  - '#F79586'
 ---
 
 <ul>

@@ -1,5 +1,4 @@
 .archive-list {
-	border-top: 1px solid $color-gray;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -10,7 +9,12 @@
 	color: inherit;
 	display: flex;
 	padding: 2em 1em; 
+	position: relative;
 	transition: background .1s ease-in-out;
+}
+
+.archive-item:last-of-type a {
+	border: 0;
 }
 
 .archive-item a:hover,
@@ -22,6 +26,7 @@
 
 .archive-image {
 	margin: 0 2em 0 0;
+	max-width: 30%;
 }
 
 .archive-info {
@@ -38,4 +43,12 @@
 		margin-bottom: 1em; 
 	}
 
+}
+
+.archive-navigation {
+	display: flex;
+
+	.next {
+		margin-left: auto;
+	}
 }

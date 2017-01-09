@@ -2,19 +2,19 @@
 layout: default
 ---
 	{{ content }}
-		<ul class="archive-list">
-			<li class="archive-item">
-				<a href="#0">
+		<ul class="archive-list">{% for project in site.projects 
+		%}<li class="archive-item">
+				<a href="{{ project.url }}">
 					<figure class="archive-image">
-						<img src="http://placekitten.com/400/300" />
+						<img src="{{ site.baseurl }}/images/thumbs/{{ project.thumbnail }}" />
 					</figure>
 					<div class="archive-info">
-						<h3>Banfill-Locke Center for the Arts</h3>
-						<div class="archive-tags">Logo design, WordPress, CRM integration</div>
-						<div class="archive-description">Website built for a nonprofit art gallery in Fridley, MN.</div>
+						<h3>{{ project.title }}</h3>
+						<div class="archive-tags">{{ project.skills }}</div>
+						<div class="archive-description">{{ project.blurb }}</div>
 					</div>
 				</a>
-			</li>
-		</ul>
+			</li>{% endfor 
+	%}</ul>
 
 

@@ -4,9 +4,6 @@ title: Contact
 permalink: /contact/
 group: "navigation"
 weight: 4
-hero-gradient:
-  - '#C99143'
-  - '#E8A84D'
 ---
 
 Find me on [Twitter]("https://twitter.com/ryanaripley"), [GitHub]("https://github.com/ryanaripley"), [CodePen]("http://codepen.io/ryanaripley/"), or:

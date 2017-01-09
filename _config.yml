@@ -36,6 +36,12 @@ permalink: pretty
 sass:
   sass_dir: _scss
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   -

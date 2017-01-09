@@ -44,3 +44,7 @@ defaults:
     values:
       layout: "default"
       hero-image: "tools-1400.jpg"
+  - scope:
+      type: projects
+    values:
+      layout: project

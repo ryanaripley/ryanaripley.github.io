@@ -1,9 +1,8 @@
 ---
-title: "Banfill-Locke Center for the Arts"
-hero-image: banfill-1400.jpg
-thumbnail: banfill-thumb.jpg
-blurb: "Website built for nonprofit gallery in Fridley, MN"
-skills: "Logo design, WordPress, CRM integration"
+title: "Playwrights' Center Annual Reports"
+thumbnail: pwc2015-thumb.jpg
+blurb: "Expressing the mission of a nonprofit."
+skills: "Web design and development"
 ---
 
 <p class="highlight">This is the first important paragraph about this project.</p>
@@ -18,10 +17,4 @@ consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### This is a list
-
-- One
-- Two
-- Three
 

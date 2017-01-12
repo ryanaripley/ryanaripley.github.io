@@ -3,9 +3,9 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="{{ page.title | slugify }}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
 
-    <header class="page-header" style="background-image:url({{ site.baseurl }}/images/heroes/{{ page.hero-image }})"> 
+    <header class="page-header" {% include hero_image.html %}> 
 
       <div class="nav-bar">
 

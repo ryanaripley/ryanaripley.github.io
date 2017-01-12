@@ -6,7 +6,7 @@ layout: default
 		%}<li class="archive-item">
 				<a href="{{ project.url }}">
 					<figure class="archive-image">
-						<img src="{{ site.baseurl }}/images/thumbs/{{ project.thumbnail }}" />
+						<img src="{{ site.baseurl }}/assets/content/{{ project.collection }}/{{ project.title | slugify }}/{{ project.thumbnail }}" />
 					</figure>
 					<div class="archive-info">
 						<h3>{{ project.title }}</h3>

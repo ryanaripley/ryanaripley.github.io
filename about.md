@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 group: "navigation"
 weight: 3
-hero-image: "tools_1400.jpg"
 ---
 
 <h1>Heading 1 </h1>

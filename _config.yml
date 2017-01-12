@@ -49,7 +49,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      hero-image: "tools-1400.jpg"
   - scope:
       type: projects
     values:

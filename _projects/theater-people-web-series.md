@@ -6,8 +6,6 @@ blurb: "Creating an online home for independently produced web series."
 skills: "Logo design, WordPress"
 ---
 
-<p class="highlight">This is the first important paragraph about this project.</p>
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

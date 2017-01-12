@@ -2,11 +2,9 @@
 title: "Banfill-Locke Center for the Arts"
 hero-image: banfill-1400.jpg
 thumbnail: banfill-thumb.jpg
-blurb: "Website built for nonprofit gallery in Fridley, MN"
+blurb: "Reimaging the brand of a nonprofit art gallery."
 skills: "Logo design, WordPress, CRM integration"
 ---
-
-<p class="highlight">Reimaging the brand of a nonprofit art gallery.</p>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

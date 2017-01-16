@@ -1,9 +1,10 @@
 ---
 title: Making Gimp, well, less gimpy
-blurb: "Because I'm the first person ever to think of that obvious pun."
+tags: 
+  - Linux
+  - Gimp
 ---
-
-
+Because I'm the first person ever to think of that pun.
 
 ### 1. Hide layer boundaries
 

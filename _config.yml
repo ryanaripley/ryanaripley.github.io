@@ -50,6 +50,10 @@ defaults:
     values:
       layout: "default"
   - scope:
+      type: posts
+    values:
+      layout: single
+  - scope:
       type: projects
     values:
-      layout: project
+      layout: single

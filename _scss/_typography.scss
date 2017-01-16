@@ -69,6 +69,10 @@ ul, ol {
   padding-left: 2em;
 }
 
+li {
+  margin-bottom: 1em;
+}
+
 blockquote {
   border-left: .6em solid $color-primary;
   color: $color-gray;
@@ -90,8 +94,15 @@ pre {
 }
 
 code {
+  background: rgba($color-primary, .2);
   font-family: "Courier New", monospace;
   font-size: .9em;
+  padding: .2em .3em 0;
+}
+
+pre > code {
+  background: none;
+  padding: 0;
 }
 
 a {

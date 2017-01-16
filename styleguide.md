@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Stylesheet
-permalink: /stylesheet/
+title: Styleguide
+permalink: /styleguide/
 ---
 
 <h1>Heading 1 </h1>

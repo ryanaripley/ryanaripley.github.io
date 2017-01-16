@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+.archive-list li {
+	margin: 0;
+}
+
 .archive-item a {
 	border-bottom: 1px solid $color-gray;
 	color: inherit;
@@ -30,17 +34,30 @@
 }
 
 .archive-info {
-	h3 {
-		font-family: $font-primary;
-		font-size: 1.2em;
-		font-weight: $font-primary-weight-heavy;
-		margin: 0 0 .2em;
+
+	
+	p {
+		margin-bottom: 0;
 	}
 
-	.archive-tags {
-		font-size: .8em;
-		font-style: italic;
-		margin-bottom: 1em; 
-	}
+}
 
+.archive-list.posts h3{
+	margin: 0 0 .2em;
+}
+
+.archive-list.projects h3 {
+	font-family: $font-primary;
+	font-size: 1.2em;
+	font-weight: $font-primary-weight-heavy;
+	margin: 0 0 .2em;
+}
+
+.archive-list .archive-subtitle {
+	font-style: italic;
+	margin-bottom: 1em; 
+}
+
+.archive-list.projects .archive-subtitle {
+	font-size: .9em;
 }

@@ -2,13 +2,12 @@
 layout: default
 ---
 	{{ content }}
-		<ul class="archive-list">{% for post in site.posts 
+		<ul class="archive-list posts">{% for post in site.posts 
 		%}<li class="archive-item">
 				<a href="{{ post.url }}">
 					<div class="archive-info">
 						<h3>{{ post.title }}</h3>
-						<div class="archive-date">{{ post.date | date: '%B %d, %Y' }}</div>
-						<div class="archive-tags">{{ post.categories }}</div>
+						<div class="archive-subtitle">{{ post.date | date: '%B %d, %Y' }}{% include tag_list.html tags=post.tags %}</div>
 						<div class="archive-description">{{ post.excerpt }}</div>
 					</div>
 				</a>

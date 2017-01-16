@@ -5,8 +5,19 @@ $font-secondary: "Merriweather", Times, serif;
 $font-secondary-weight: 700;
 $font-secondary-weight-heavy: 700;
 
+html {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: $leading;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   color: $color-black;
+}
+
+b, strong {
+  font-weight: $font-primary-weight-heavy;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +48,7 @@ h4, h5, h6 {
   font-weight: $font-normal;
 }
 
-p, ul, ol, blockquote {
+p, ul, ol {
   color: $color-gray;
   font-family: $font-primary;
   font-size: 1.2em;
@@ -60,9 +71,12 @@ ul, ol {
 
 blockquote {
   border-left: .6em solid $color-primary;
+  color: $color-gray;
+  font-family: $font-primary;
   font-style: italic;
+  font-weight: $font-primary-weight;
   margin-left: .5em;
-  padding-left: .7em;
+  padding-left: 1.5em;
   em {
     font-style: normal;
   }
@@ -70,6 +84,8 @@ blockquote {
 
 pre {
   background: rgba($color-primary, .2);
+  font-family: "Courier New", monospace;
+  margin: 2.7em 0;
   padding: $padding/2 $padding;
 }
 
@@ -78,15 +94,30 @@ code {
   font-size: .9em;
 }
 
-a, a:visited {
-  color: $color-primary;
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
   text-decoration: none;
 }
 
+a, a:visited {
+  color: $color-primary;
+}
+
 a:hover, a:target {
   text-decoration: underline;
 }
 
 a:hover, a:target {
   text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+::selection {
+  background: rgba($color-green, .6);
+  color: black;
 }

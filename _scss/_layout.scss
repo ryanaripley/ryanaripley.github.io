@@ -3,12 +3,14 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
 	font-size: 16px;
+  margin: 0;
 }
 
 @media (min-width: $bp-medium) {
@@ -22,6 +24,24 @@ body {
     font-size: 20px
   }
 }
+
+/* Figures and images */
+
+figure {
+  margin: 4em 0;
+}
+
+figcaption {
+  margin: .5em 0 1em;
+  text-align: center;
+}
+
+img {
+  border-style: none;
+  max-width: 100%
+}
+
+/* Set widths and margins */
 
 .page-content {
   max-width: 40em;

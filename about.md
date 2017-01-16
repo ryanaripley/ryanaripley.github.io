@@ -1,9 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
-group: "navigation"
-weight: 3
+title: Stylesheet
+permalink: /stylesheet/
 ---
 
 <h1>Heading 1 </h1>

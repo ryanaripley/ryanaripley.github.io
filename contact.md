@@ -6,7 +6,7 @@ group: "navigation"
 weight: 4
 ---
 
-Find me on [Twitter]("https://twitter.com/ryanaripley"), [GitHub]("https://github.com/ryanaripley"), [CodePen]("http://codepen.io/ryanaripley/"), or:
+Find me on [Twitter](https://twitter.com/ryanaripley), [GitHub](https://github.com/ryanaripley), [CodePen](http://codepen.io/ryanaripley/), or:
         
 ### Leave a message
 
@@ -15,7 +15,7 @@ Find me on [Twitter]("https://twitter.com/ryanaripley"), [GitHub]("https://githu
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_next" value="{{site.url}}/thanks" />
   
-  <label for="name">Full name:</label>
+  <label for="name">Name:</label>
   <input type="text" name="name" id="name" value="" />
   <label for="Email">Email:</label>
   <input type="email" name="email" id="email" value="" />

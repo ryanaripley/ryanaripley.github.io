@@ -1,0 +1,33 @@
+/* Make sure the right things are block across browsers */
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main { 
+  display: block;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; 
+}
+
+/* Hide the overflow in IE */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}

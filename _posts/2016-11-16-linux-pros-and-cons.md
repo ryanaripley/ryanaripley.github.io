@@ -3,6 +3,7 @@ title: Linux pros and cons, November 2016 edition
 hero-gradient:
   - '#5464AB'
   - '#7288E'
+categories: Linux
 ---
 
 The current design of this site (launched in late 2016) was designed and developed on a HP ProBook running the Chromixium Linux distro. Here are a few observations: 

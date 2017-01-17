@@ -124,6 +124,10 @@ a:hover {
   outline-width: 0;
 }
 
+textarea {
+  font-family: $font-primary;
+}
+
 ::selection {
   background: rgba($color-green, .6);
   color: black;

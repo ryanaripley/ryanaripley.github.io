@@ -1,8 +1,8 @@
 ---
 title: Linux pros and cons, January 2017 edition
-header-gradient:
+hero-gradient:
+  - '#323c67'
   - '#5464AB'
-  - '#7288E'
 tags: 
   - Linux
 ---

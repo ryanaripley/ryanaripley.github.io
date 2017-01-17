@@ -3,6 +3,9 @@ title: Making Gimp, well, less gimpy
 tags: 
   - Linux
   - Gimp
+hero-gradient: 
+  - '#50412f'
+  - '#725c43'
 excerpt_separator: <!--more-->
 ---
 Because I'm the first person ever to think of that pun. <!--more--> Here is a bunch more stuff.

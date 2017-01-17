@@ -1,19 +1,22 @@
 ---
 title: "Theater People Web Series"
-hero-image: tp-1400.jpg
+hero-gradient:
+  - '#842715'
+  - '#dc4123'
 thumbnail: tp-thumb.jpg
 blurb: "Creating an online home for independently produced web series."
 skills: "Logo design, WordPress"
 ---
+[*Theater People*][theater people] is a comedy web series, filmed in Minneapolis/St. Paul, about the world of independent theater and the people who occupy it. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
+I designed their logo:
 
-## Process
+{% include image.html name="tp-logo.jpg" alt="Logo created for Theater People web series" %}
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+And built their website:
 
+{% include browser_example.html desktop="tp-desktop.jpg" mobile="tp-mobile.jpg" alt="Website design for the Theater People web series" %}
+
+<a href="http://theaterpeoplewebseries.com" class="button">Visit site</a>
+
+[theater people]: http://theaterpeoplewebseries.com

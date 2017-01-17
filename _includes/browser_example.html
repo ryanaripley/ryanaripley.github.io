@@ -1,0 +1,5 @@
+{% capture imagePath %}{{ site.baseurl }}/assets/content/{{ page.collection }}/{% if page.collection == 'post' %}{{ page.date | date: "%Y-%m-%d" }}-{% endif %}{{ page.title | slugify }}{% endcapture %}
+<figure class="browser-example">
+  <img class="desktop" src="{{ imagePath }}/{{ include.desktop }}" alt="{{ include.alt }}">
+  <img class="mobile" src="{{ imagePath }}/{{ include.mobile }}" alt="{{ include.alt }}">
+</figure>

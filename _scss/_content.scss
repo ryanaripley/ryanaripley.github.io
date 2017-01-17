@@ -13,3 +13,40 @@
 	}
 }
 
+.browser-example {
+	position: relative;
+
+	img {
+		@include box-shadow;
+	}
+
+	.desktop {
+		margin-bottom: 2em;
+	}
+
+	.mobile {
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	@media (min-width: $bp-medium) {
+
+		img {
+			margin: 0;
+		}
+
+		.desktop {
+			transform: translateX(-2rem);
+			width: 90%;
+		}
+
+		.mobile {
+			display: inline;
+			position: absolute;
+			right: -2rem;
+			bottom: -1em;
+			width: 12em;
+		}
+	}
+}

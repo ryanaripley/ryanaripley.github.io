@@ -22,3 +22,20 @@ $color-gray: rgb(100,100,100);
 $color-black: rgb(50,50,50);
 
 $shadow: .4rem .3rem 0 $color-primary;
+
+@mixin group {
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+
+.group {
+	@include group;
+}
+
+@mixin box-shadow {
+	box-shadow: 5px 5px 20px rgba(0,0,0,.4),
+              -4px 8px 15px rgba(0,0,0,.3);
+}

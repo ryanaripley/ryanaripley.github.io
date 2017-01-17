@@ -17,6 +17,11 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	{% if page.style %}
+		<style type="text/css">
+			{{ page.style }}
+		</style>
+	{% endif %}
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 

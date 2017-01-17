@@ -67,7 +67,7 @@
 .nav-bar a:visited {
   color: $color-black;
   text-decoration: none;
-  transition: color .15s ease-in-out;
+  transition: opacity .1s ease-in-out;
 }
 
 @media (min-width: $bp-medium) {
@@ -79,7 +79,7 @@
 
   .nav-bar a:hover,
   .nav-bar a:target {
-    color: $color-primary;
+    opacity: .7;
   }
 
 }

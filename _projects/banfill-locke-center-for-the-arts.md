@@ -14,7 +14,6 @@ skills: "Logo design, WordPress, CRM integration"
 2. Redesign Banfill-Locke's aging and non-responsive website and make the switch to WordPress so the site would be easier for staff to update
 3. Integrate the new website with [CiviCRM][civicrm], an open source donor, membership and event management software
 
-
 {% include image.html name="banfill_mood.jpg" caption="Mood board I created to demonstrate and explore Banfill-Locke's new brand" %}
 
 {% include image.html name="banfill-browsers.jpg" caption="Banfill-Locke's redesigned site, which I built with on a custom WordPress theme" %}

@@ -1,1 +1,7 @@
-{% if page.hero-image %}style="background-image:url({{ site.baseurl }}/assets/content/{% if page.collection %}{{ page.collection }}{% else %}pages{% endif %}/{{ page.title | slugify }}/{{ page.hero-image }})"{% else %}style="background-image:url({{ site.baseurl }}/assets/layout/default_hero_1400.jpg)"{% endif %}
+{% if page.hero-image %}
+	style="background-image:url({{ site.baseurl }}/assets/content/{% if page.collection %}{{ page.collection }}{% else %}pages{% endif %}/{{ page.title | slugify }}/{{ page.hero-image }})"
+{% elsif page.hero-gradient %}
+	style="background-image:linear-gradient(to right, {{ page.hero-gradient[0] }}, {{ page.hero-gradient[1] }});"
+{% else %}
+	style="background-image:url({{ site.baseurl }}/assets/layout/default_hero_1400.jpg)"
+{% endif %}

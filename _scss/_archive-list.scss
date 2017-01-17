@@ -8,7 +8,7 @@
 	margin: 0;
 }
 
-.archive-item a {
+.archive-item .archive-link {
 	border-bottom: 1px solid $color-gray;
 	color: inherit;
 	display: flex;
@@ -17,12 +17,12 @@
 	transition: background .1s ease-in-out;
 }
 
-.archive-item:last-of-type a {
+.archive-item:last-of-type .archive-link {
 	border: 0;
 }
 
-.archive-item a:hover,
-.archive-item a:target {
+.archive-item .archive-link:hover,
+.archive-item .archive-link:target {
 	background: rgba($color-primary, .2);
 	text-decoration: none;
 
@@ -34,8 +34,6 @@
 }
 
 .archive-info {
-
-	
 	p {
 		margin-bottom: 0;
 	}

@@ -6,9 +6,8 @@ tags:
 hero-gradient: 
   - '#50412f'
   - '#725c43'
-excerpt_separator: <!--more-->
 ---
-Because I'm the first person ever to think of that pun. <!--more--> Here is a bunch more stuff.
+Having done most of my web development work recently on Linux, I've had to begrudgingly turn toward [Gimp][gimp] as a Photoshop replacement. It's a difficult transition, but here are a few things that made it easier.
 
 ### 1. Switch to Single-Window Mode
 
@@ -26,9 +25,11 @@ By default, Gimp highlights the boundaries of the current layer. In yellow. It m
 
 **Edit > Preferences > Tool Options > Move Tool > check "Set layer or path as active"**
 
-The Gimp move tool (shotcut "M") is another frustrating change from Photoshop. By default, clicking and moving grabs whatever layer your cursor is immediately above--usually the background layer. When you choose the option to "set layer path as active," the move tool click-and-drag will only move the selected layer. You can hold shift to toggle the behavior, which is nice for switching to a new layer or adjusting a guideline.
+The Gimp move tool (shortcut "M") is another frustrating change from Photoshop. By default, clicking and moving grabs whatever layer your cursor is immediately above--usually the background layer. When you choose the option to "set layer path as active," the move tool click-and-drag will only move the selected layer. You can hold shift to toggle the behavior, which is nice for switching to a new layer or adjusting a guideline.
 
 ### 4. Get the shortcuts set up just how you like them
 
 - By fault, redo is `Ctrl + 'Y'`, but I'm a `Shift + Ctrl + 'Z'` man myself
 - I think zoom in and zoom out should be `Ctrl + '+'` and `Ctrl + '-'`, respectively
+
+[gimp]: https://www.gimp.org/

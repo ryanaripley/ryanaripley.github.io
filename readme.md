@@ -1,6 +1,6 @@
 # Read-me
 
-Personal porfolio website for Ryan A. Ripley.
+Personal portfolio website for Ryan A. Ripley.
 
 ### Hero images
 

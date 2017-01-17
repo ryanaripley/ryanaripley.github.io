@@ -4,7 +4,7 @@ layout: default
 	{{ content }}
 		<ul class="archive-list projects">{% for project in site.projects 
 		%}<li class="archive-item">
-				<a href="{{ project.url }}">
+				<a href="{{ project.url }}" class="archive-link">
 					<figure class="archive-image">
 						<img src="{{ site.baseurl }}/assets/content/{{ project.collection }}/{{ project.title | slugify }}/{{ project.thumbnail }}" />
 					</figure>

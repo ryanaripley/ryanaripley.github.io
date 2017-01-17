@@ -25,7 +25,7 @@ For the past three years, I've designed the annual reports for the [Playwrights'
 
 ## 2015-16 annual report
 
-For the 2015-16 report, I designed a layout that interweaves statistics, brief narrative sections, and quotes from the Center's writers. On desktop, the right half of the screen cycles through images from the year while you scroll through report information on the left.
+For the 2015-16 report, I designed a layout that interweaves statistics, brief narrative sections, and quotes from the Center's writers. On desktop, the right half of the screen cycles through images from the year while you scroll through the report on the left.
 
 {% include browser_example.html desktop="pwc-2015-16.jpg" mobile="pwc-2015-16-mobile.jpg" alt="Playwrights' Center 2015-16 Annual Report" %}
 

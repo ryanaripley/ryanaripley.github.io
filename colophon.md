@@ -7,7 +7,7 @@ title: Colophon
 
 This website is built with [Jekyll][jekyll] and hosted on [GitHub Pages][github pages].
 
-To organize images, I adpated a method described by [Eduardo Boucas][boucas] to organize assets used in pages, posts and other collections into folders.
+For images, I adapted a method described by [Eduardo Boucas][boucas] to organize assets used in pages, posts and other collections into folders.
 
 
 ## Fonts

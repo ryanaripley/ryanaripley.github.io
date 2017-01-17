@@ -6,12 +6,12 @@ blurb: "Helping a nonprofit art gallery find ways to use technology to advance t
 skills: "Logo design, WordPress, CRM integration"
 ---
 
-[Banfill-Locke Center for the Arts][banfill], started in 1979, is a nonprofit community art center located on the Missippi River in an historic farmhouse and tavern. 
+[Banfill-Locke Center for the Arts][banfill], started in 1979, is a nonprofit community art center located on the Mississippi River in an historic farmhouse and tavern. 
 
 ### Project goals
 
 1. Create a new logo and brand identity that could be used across Banfill-Locke's digital and print materials
-2. Redesign Banfill-Locke's aging and non-responsive website and make the switch to WordPress so the site would be easier for staff to update
+2. Redesign Banfill-Locke's aging and non-responsive website, making the switch to WordPress so the site is easier for staff to update
 3. Integrate the new website with [CiviCRM][civicrm], an open source donor, membership and event management software
 
 {% include image.html name="banfill_mood.jpg" caption="Mood board I created to demonstrate and explore Banfill-Locke's new brand" %}

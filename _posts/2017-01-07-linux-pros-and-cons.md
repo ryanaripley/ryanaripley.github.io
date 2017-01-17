@@ -6,7 +6,7 @@ hero-gradient:
 tags: 
   - Linux
 ---
-The most recent design of this site (launched early 2017) was primarily designed and developed on a HP ProBook running the Chromixium Linux distro. Here are a few observations. 
+The most recent design of this site (launched early 2017) was primarily designed and developed on an HP ProBook running the Chromixium Linux distro. Here are a few observations. 
 
 ### Linux pros
  

@@ -1,8 +1,7 @@
 .page-header {
   background: #3f362d;
-  background: linear-gradient(to bottom, #3b342d, #463c32) no-repeat center center fixed; 
+  background: linear-gradient(to bottom, #3b342d, #463c32) no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
   margin: 0 0 3em;
   min-width: 100%;
   padding: 13em $padding 6em;
@@ -11,6 +10,8 @@
 
 @media (min-width: $bp-medium) {
   .page-header {
+    background-size: cover;
+    background-attachment: fixed;
     padding: 10em $padding 8em;
   }
 }

@@ -4,7 +4,7 @@ hero-gradient:
   - '#842715'
   - '#dc4123'
 thumbnail: tp-thumb.jpg
-blurb: "Creating an online home for independently produced web series."
+blurb: "Establishing an online home for an independently produced web series."
 skills: "Logo design, WordPress"
 ---
 [*Theater People*][theater people] is a comedy web series, filmed in Minneapolis/St. Paul, about the world of independent theater and the people who occupy it. 

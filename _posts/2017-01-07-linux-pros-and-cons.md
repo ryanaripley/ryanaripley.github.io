@@ -11,7 +11,7 @@ The most recent design of this site (launched early 2017) was primarily designed
 ### Linux pros
  
 - **Linux distros can make the most of old hardware.** Whereas my 2011 MacBook pro can barely chug along running the latest macOS, an HP ProBook of similar vintage with 1/3 the memory feels downright snappy running Chromixium. And for all the grumbling and cursing I do about Gimp, I could have 10 images resized on Gimp on Linux in the time it takes me to open Photoshop 2017 on my 2011 MacBook. 
-- **Using the terminal reminds me of putting on a warm pair of socks.** The command line feels like a 1st-class citizen in Linux. It seems like I spent less time installing software than on macOS (I'm looking at you, Xcode). And the best option for using Unix-based dev tools on Windows is to [install a Linux subsystem][windows], which comes with its own set of problems--blog post to come on that...
+- **Using the terminal reminds me of putting on a warm pair of socks.** The command line feels like a 1st-class citizen in Linux. It seems like I spent less time installing software than on macOS (I'm looking at you, Xcode), and most of the software I needed was available with apt-get. And the best option for using Unix-based dev tools on Windows is to [install a Linux subsystem][windows], which comes with its own set of problems--blog post to come on that...
 - **Consistent tech stack.** The setup I'm using to develop is more similar to the tech stack of the server to which I will eventually deploy. This is more true when working on LAMP sites like WordPress. This redesign of my site is built with Jekyll hosted on GitHub Pages, so no server tomfoolery required. 
 
 ### Linux cons

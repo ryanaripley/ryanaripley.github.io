@@ -14,6 +14,11 @@
 	<meta name="theme-color" content="#63a65b">
 
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+	<style type="text/css">
+		:root {
+			--color-main: {% if page.accent_color %}{{ page.accent_color }}{% else %}#63A65B{% endif %};
+		}
+	</style>
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	{% if page.style %}
 		<style type="text/css">

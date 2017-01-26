@@ -6,6 +6,7 @@ tags:
 hero-gradient: 
   - '#50412f'
   - '#725c43'
+accent_color: '#725c43'
 ---
 Having done most of my web development work recently on Linux, I've had to begrudgingly turn toward [Gimp][gimp] as a Photoshop replacement. It's a difficult transition, but here are a few things that made it easier.
 

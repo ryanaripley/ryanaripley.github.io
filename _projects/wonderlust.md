@@ -3,6 +3,7 @@ title: "Wonderlust"
 hero-gradient:
   - '#505f09'
   - '#aec738'
+accent_color: '#aec738'
 thumbnail: wonderlust_thumb.jpg
 blurb: "Inviting audiences to celebrate and support a nonprofit arts organization."
 skills: "Website design and development"

@@ -1,6 +1,7 @@
 ---
 title: "Playwrights' Center Annual Reports"
 thumbnail: pwc2015-thumb.jpg
+accent_color: '#00a7cf'
 blurb: "Celebrating the work of a nonprofit arts service organization."
 skills: "Web design and development"
 style: |

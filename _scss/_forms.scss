@@ -30,7 +30,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  box-shadow: $shadow;
+  box-shadow: .4rem .3rem 0 $color-primary;
+  box-shadow: .4rem .3rem 0 var(--color-main);
   outline: 0; 
 }
 
@@ -86,7 +87,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  box-shadow: $shadow;
+  box-shadow: .4rem .3rem 0 $color-primary;
+  box-shadow: .4rem .3rem 0 var(--color-main);
   outline: 0; 
 }
 

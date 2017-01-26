@@ -2,6 +2,7 @@
 title: "K. Marit Ripley"
 hero-image: marit_large.jpg
 thumbnail: marit_thumb.jpg
+accent_color: '#d85016'
 blurb: "Creating a portfolio site for a freelance illustrator and designer."
 skills: "Web design and development, Jekyll"
 ---

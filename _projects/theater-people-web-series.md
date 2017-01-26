@@ -3,6 +3,7 @@ title: "Theater People Web Series"
 hero-gradient:
   - '#842715'
   - '#dc4123'
+accent_color: '#dc4123'
 thumbnail: tp-thumb.jpg
 blurb: "Establishing an online home for an independently produced web series."
 skills: "Logo design, WordPress"

@@ -3,6 +3,7 @@ title: "NC-ACDA"
 hero-gradient:
   - '#172661'
   - '#273a87'
+accent_color: '#273a87'
 thumbnail: ncacda_thumb.jpg
 blurb: "Providing valuable resources to choir conductors across six states."
 skills: "Website design and development, WordPress"

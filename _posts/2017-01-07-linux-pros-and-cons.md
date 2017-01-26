@@ -3,6 +3,7 @@ title: Linux pros and cons, January 2017 edition
 hero-gradient:
   - '#323c67'
   - '#5464AB'
+accent_color: '#5464AB'
 tags: 
   - Linux
 ---

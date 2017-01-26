@@ -71,6 +71,7 @@ ul, ol {
 
 blockquote {
   border-left: .6em solid $color-primary;
+  border-left: .6em solid var(--color-main);
   color: $color-gray;
   font-family: $font-primary;
   font-style: italic;
@@ -83,14 +84,14 @@ blockquote {
 }
 
 pre {
-  background: rgba($color-primary, .2);
+  background: rgba(black, .05);
   font-family: "Courier New", monospace;
   margin: 2.7em 0;
   padding: $padding/2 $padding;
 }
 
 code {
-  background: rgba($color-primary, .2);
+  background: rgba(black, .05);
   font-family: "Courier New", monospace;
   font-size: .9em;
   padding: .2em .3em 0;
@@ -109,6 +110,7 @@ a {
 
 a, a:visited {
   color: $color-primary;
+  color: var(--color-main);
 }
 
 a:hover, a:target {
@@ -129,6 +131,7 @@ textarea {
 }
 
 ::selection {
-  background: rgba($color-green, .6);
-  color: black;
+  background: rgba($color-primary, .6);
+  background: var(--color-main);
+  color: white;
 }

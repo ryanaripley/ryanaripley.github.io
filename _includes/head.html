@@ -6,6 +6,12 @@
 	<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:image" content="{% if page.hero-image %}{{ site.baseurl }}/assets/content/{% if page.collection %}{{ page.collection }}{% else %}pages{% endif %}/{{ page.title | slugify }}/{{ page.hero-image }}{% else %}{{ site.baseurl}}/assets/layout/default_og_image.jpg{% endif %}" />
+
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicons/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicons/favicon-16x16.png" sizes="16x16">

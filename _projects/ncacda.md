@@ -1,5 +1,5 @@
 ---
-title: "NC-ACDA"
+title: "NCACDA"
 hero-gradient:
   - '#172661'
   - '#273a87'

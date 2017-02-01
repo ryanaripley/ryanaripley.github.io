@@ -14,7 +14,7 @@ Having done most of my web development work recently on Linux, I've had to begru
 
 **Windows > Single-Window Mode**
 
-Be default, each toolbar in Gimp shows up in its own window. It's bothersome, but quickly fixed. By default, Gimp saves your current window setup on exit, so once you make this change it should stick. If not, check to make sure **Edit > Preferences > Windows Management > "Save window positions on exit"** is checked.
+By default, each toolbar in Gimp shows up in its own window. It's bothersome, but quickly fixed. By default, Gimp saves your current window setup on exit, so once you make this change it should stick. If not, check to make sure **Edit > Preferences > Windows Management > "Save window positions on exit"** is checked.
 
 ### 2. Hide layer boundaries
 
@@ -32,7 +32,7 @@ The Gimp move tool (shortcut "M") is another frustrating change from Photoshop. 
 
 **Edit > Keyboard Shortcuts**
 
-- By fault, redo is `Ctrl + 'Y'`, but I'm a `Shift + Ctrl + 'Z'` man myself
+- By default, redo is `Ctrl + 'Y'`, but I'm a `Shift + Ctrl + 'Z'` man myself
 - I think zoom in and zoom out should be `Ctrl + '+'` and `Ctrl + '-'`, respectively
 
 [gimp]: https://www.gimp.org/

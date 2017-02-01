@@ -22,7 +22,7 @@ style: |
     100% { background-position: 0 0; }
   }
 ---
-For the past three years, I've designed the annual reports for the [Playwrights' Center][pwc], or organization that serves playwrights through new play development and financial support. 
+For the past three years, I've designed the annual reports for the [Playwrights' Center][pwc], an organization that serves playwrights through new play development and financial support. 
 
 ## 2015-16 annual report
 

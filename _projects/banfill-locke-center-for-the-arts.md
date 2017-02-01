@@ -7,7 +7,7 @@ blurb: "Helping a nonprofit art gallery find ways to use technology to advance t
 skills: "Logo design, WordPress, CRM integration"
 ---
 
-[Banfill-Locke Center for the Arts][banfill], started in 1979, is a nonprofit community art center located on the Mississippi River in an historic farmhouse and tavern. 
+[Banfill-Locke Center for the Arts][banfill], established in 1979, is a nonprofit community art center located on the Mississippi River in an historic farmhouse and tavern. 
 
 ### Project goals
 
@@ -17,7 +17,7 @@ skills: "Logo design, WordPress, CRM integration"
 
 {% include image.html name="banfill_mood.jpg" caption="Mood board I created to demonstrate and explore Banfill-Locke's new brand" %}
 
-{% include image.html name="banfill-browsers.jpg" caption="Banfill-Locke's redesigned site, which I built with on a custom WordPress theme" %}
+{% include image.html name="banfill-browsers.jpg" caption="Banfill-Locke's redesigned site, which I built using a custom WordPress theme" %}
 
 {% include image.html name="banfill_business-cards.jpg" caption="Business cards I designed as part of the new brand and business system" %}
 

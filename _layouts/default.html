@@ -5,7 +5,7 @@
 
   <body class="{{ page.title | slugify }}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
 
-    <header class="page-header" {% include hero_image.html %}> 
+    <header id="hero-image" class="page-header"> 
 
       <div class="nav-bar">
 
@@ -36,9 +36,21 @@
 
 {% include footer.html %}
  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script> -->
-    <!-- <script src="{{ site.basurl }}/js/main.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+    <script>
+      var x_colors = {{ page.x_colors }};
+      var variance = Math.floor((Math.random() * 40) + 40)/100;
+      function addTriangleTo(target) {
+        var pattern = Trianglify({
+          width: window.innerWidth,
+          height: window.innerHeight,
+          x_colors: x_colors,
+          variance: variance
+        });
+        target.style['background-image'] = 'url(' + pattern.png() + ')';
+      }
+      addTriangleTo(document.getElementById('hero-image'));
+    </script>
 
   </body>
 

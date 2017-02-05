@@ -1,12 +1,10 @@
 ---
 title: "NCACDA"
-hero-gradient:
-  - '#172661'
-  - '#273a87'
-accent_color: '#273a87'
 thumbnail: ncacda_thumb.jpg
 blurb: "Providing valuable resources to choir conductors across six states."
 skills: "Website design and development, WordPress"
+x_colors: "['#000000', '#273a87', '#6177d1', '#273a87', '#000000']"
+accent_color: "#273a87"
 ---
 [The North Central Division][ncacda] of the American Choral Directors Association is one of seven geographic divisions of the association formed in 1959 to promote excellence in choral music.
 

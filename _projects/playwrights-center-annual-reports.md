@@ -4,23 +4,8 @@ thumbnail: pwc2015-thumb.jpg
 accent_color: '#00a7cf'
 blurb: "Celebrating the work of a nonprofit arts service organization."
 skills: "Web design and development"
-style: |
-  .page-header {
-    background-image: linear-gradient(to right, #054f7d, #00a7cf, #efe348, #861a54, #054f7d) !important;
-    background-size: 600%;    
-    background-position: 0 0;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-name: gradients;
-  }
-  @keyframes gradients {
-    0% { background-position: 0 0; }
-    25% { background-position: 50% 0; }
-    50% { background-position: 90% 0; }
-    60% { background-position: 60%; }
-    75% { background-position: 40%; }
-    100% { background-position: 0 0; }
-  }
+x_colors: "['#054f7d', '#00a7cf', '#efe348', '#861a54']"
+accent_color: "#00a7cf"
 ---
 For the past three years, I've designed the annual reports for the [Playwrights' Center][pwc], an organization that serves playwrights through new play development and financial support. 
 

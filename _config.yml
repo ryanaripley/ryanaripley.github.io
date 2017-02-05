@@ -51,6 +51,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+      x_colors: "['#000000', '#62a659', '#000000']"
   - scope:
       type: posts
     values:

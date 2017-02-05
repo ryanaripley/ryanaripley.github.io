@@ -1,7 +1,7 @@
 ---
 title: "K. Marit Ripley"
-hero-image: marit_large.jpg
 thumbnail: marit_thumb.jpg
+x_colors: "['#000000', '#d85016', '#000000']"
 accent_color: '#d85016'
 blurb: "Creating a portfolio site for a freelance illustrator and designer."
 skills: "Web design and development, Jekyll"

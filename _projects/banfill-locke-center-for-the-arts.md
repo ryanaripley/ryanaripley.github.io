@@ -1,7 +1,7 @@
 ---
 title: "Banfill-Locke Center for the Arts"
-hero-image: banfill-1400.jpg
 thumbnail: banfill-thumb.jpg
+x_colors: "['#000000', '#282e1f', '#809463', '#282e1f', '#000000']"
 accent_color: '#809463'
 blurb: "Helping a nonprofit art gallery find ways to use technology to advance their mission."
 skills: "Logo design, WordPress, CRM integration"

@@ -2,10 +2,8 @@
 title: Making Gimp, well, less gimpy
 tags: 
   - Linux
-  - Gimp
-hero-gradient: 
-  - '#50412f'
-  - '#725c43'
+  - Gimp'
+x_colors: "['#000000', '#30271c', '#725c43', '#30271c', '#000000']"
 accent_color: '#725c43'
 ---
 Having done most of my web development work recently on Linux, I've had to begrudgingly turn toward [Gimp][gimp] as a Photoshop replacement. It's a difficult transition, but here are a few things that made it easier.

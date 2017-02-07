@@ -50,6 +50,9 @@
         target.style['background-image'] = 'url(' + pattern.png() + ')';
       }
       addTriangleTo(document.getElementById('hero-image'));
+      window.addEventListener("resize", function() {
+        addTriangleTo(document.getElementById('hero-image'));
+      });
     </script>
 
   </body>

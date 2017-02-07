@@ -38,6 +38,7 @@
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
     <script>
+      var current_width = window.innerWidth;
       var x_colors = {{ page.x_colors }};
       var variance = Math.floor((Math.random() * 40) + 40)/100;
       function addTriangleTo(target) {
@@ -51,7 +52,10 @@
       }
       addTriangleTo(document.getElementById('hero-image'));
       window.addEventListener("resize", function() {
-        addTriangleTo(document.getElementById('hero-image'));
+        if (current_width != window.innerWidth) {
+          addTriangleTo(document.getElementById('hero-image'));
+          current_width = window.innerwidth;
+        };
       });
     </script>
 

@@ -11,6 +11,7 @@ html {
 body {
   background: var(--color-main);
   background: radial-gradient(var(--color-main), #000000) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
 	font-size: 16px;
   margin: 0;

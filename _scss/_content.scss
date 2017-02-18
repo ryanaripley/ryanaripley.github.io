@@ -19,16 +19,21 @@
 
 	img {
 		@include box-shadow;
+		margin: 0;
 	}
 
 	.desktop {
 		margin-bottom: 2em;
+		transform: translateX(-1rem);
+		width: 95%;
 	}
 
 	.mobile {
-		display: block;
-		margin: 0 auto;
-		width: 70%;
+		display: inline;
+		position: absolute;
+		right: -1rem;
+		bottom: -1em;
+		width: 8em;
 	}
 
 	@media (min-width: $bp-medium) {
@@ -38,15 +43,12 @@
 		}
 
 		.desktop {
-			transform: translateX(-2rem);
+			transform: translateX(-1rem);
 			width: 90%;
 		}
 
 		.mobile {
-			display: inline;
-			position: absolute;
 			right: -2rem;
-			bottom: -1em;
 			width: 12em;
 		}
 	}

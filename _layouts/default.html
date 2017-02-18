@@ -26,13 +26,21 @@
         {% if page.collection == 'posts' %}<div class="page-header-date">{{ page.date | date: '%B %d, %Y' }}</div>{% endif %}
       </div>
 
+      <svg class="top-slant" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,100 100,0 100,100"/>
+      </svg>
+
     </header>
 
-    <main class="page-content">
+    <div class="content-wrapper">
 
-    {{ content }}
+      <main class="page-content">
 
-    </main>
+        {{ content }}
+
+      </main>
+
+    </div>
 
 {% include footer.html %}
  
@@ -40,17 +48,19 @@
     <script>
       var current_width = window.outerWidth;
       var x_colors = {{ page.x_colors }};
+      {% if page.y_colors %}var y_colors = {{ page.y_colors }}{% else %}var y_colors = {{ page.x_colors }}{% endif %};
       var variance = Math.floor((Math.random() * 40) + 40)/100;
       function addTriangleTo(target) {
         var pattern = Trianglify({
           width: window.innerWidth,
           height: window.innerHeight,
           x_colors: x_colors,
+          y_colors: y_colors,
           variance: variance
         });
         target.style['background-image'] = 'url(' + pattern.png() + ')';
       }
-      addTriangleTo(document.getElementById('hero-image'));
+      addTriangleTo(document.querySelector('body'));
       window.addEventListener("resize", function() {
         if (current_width != window.outerWidth) {
           current_width = window.outerWidth;

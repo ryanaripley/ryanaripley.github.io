@@ -1,17 +1,14 @@
 .page-header {
-  background: var(--color-main);
-  background: radial-gradient(var(--color-main), #000000) no-repeat center center;
-  margin: 0 0 3em;
+  margin: 0;
   min-width: 100%;
-  padding: 11.5em $padding 4em;
+  padding: 11.5em 0 4em;
+  position: relative;
   width: auto;
 }
 
 @media (min-width: $bp-medium) {
   .page-header {
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 7.5em $padding 6em;
+    padding: 7em 0;
   }
 }
 

@@ -9,12 +9,17 @@ html {
 }
 
 body {
+  background: var(--color-main);
+  background: radial-gradient(var(--color-main), #000000) no-repeat center center;
+  background-size: cover;
 	font-size: 16px;
   margin: 0;
 }
 
 @media (min-width: $bp-medium) {
   body {
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 18px
   }
 }
@@ -43,15 +48,50 @@ img {
 
 /* Set widths and margins */
 
+.content-wrapper {
+  background: white;
+  position: relative;
+}
+
 .page-content {
   max-width: 40em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 3em 0;
   width: 86%;
 }
 
 .site-footer {
+  background: transparent;
+  position: relative;
+  width: 100%;
+}
+
+.site-footer p {
+  color: white;
   max-width: 40em;
-  margin: 4em auto 3em;
+  margin: 0 auto;
+  padding: 3em 0 2em;
+  text-align: right;
   width: 86%;
 }
+
+.site-footer a {
+  color: white;
+}
+
+.top-slant,
+.bottom-slant {
+  position: absolute;
+  width: 100%;
+  height: 3vw;
+}
+
+.top-slant {
+  bottom: 0;
+}
+
+.bottom-slant {
+  top: 0;
+}
+
+

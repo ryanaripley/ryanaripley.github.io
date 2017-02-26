@@ -12,9 +12,16 @@
 	border-bottom: 1px solid $color-gray;
 	color: inherit;
 	display: flex;
+	flex-wrap: wrap;
 	padding: 2em 1em; 
 	position: relative;
 	transition: background .1s ease-in-out;
+}
+
+@media (min-width: $bp-medium) {
+	.archive-item .archive-link {
+		flex-wrap: nowrap; 
+	}
 }
 
 .archive-item:last-of-type .archive-link {
@@ -29,9 +36,17 @@
 }
 
 .archive-image {
-	margin: 0 2em 0 0;
-	max-width: 30%;
+	margin: 0 1em 1em 0;
+	max-width: 100%;
 }
+
+@media (min-width: $bp-medium) {
+	.archive-image {
+		margin: 0 2em 0 0;
+		max-width: 30%;
+	}
+}
+
 
 .archive-info {
 	p {
@@ -59,3 +74,4 @@
 .archive-list.projects .archive-subtitle {
 	font-size: .9em;
 }
+

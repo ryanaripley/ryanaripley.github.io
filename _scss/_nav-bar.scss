@@ -1,7 +1,7 @@
 /* Nav bar at top */
 
 .nav-bar {
-  background: white;
+  display: flex;
   padding: 0; 
   position: absolute;
     top: 0;
@@ -19,20 +19,28 @@
   padding: 1em $padding;
 }
 
-@media (min-width: $bp-medium) {
+.site-title span {
+  display: none;
+}
 
-  .nav-bar {
-    background: none;
-    display: flex;
-  }
+@media (min-width: $bp-medium) {
 
   .site-title {
     font-size: 1.2em;
   }
 
+  .site-title span {
+    display: inline;
+  }
+
 }
 
 /* Main menu */
+
+.site-navigation {
+  margin: 0 2.5rem 0 auto;
+  padding-top: 1.4em;
+}
 
 .site-navigation ul {
   line-height: 1em;
@@ -65,7 +73,7 @@
 
 .nav-bar a,
 .nav-bar a:visited {
-  color: $color-black;
+  color: white;
   text-decoration: none;
   transition: opacity .1s ease-in-out;
 }

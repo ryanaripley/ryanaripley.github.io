@@ -16,7 +16,7 @@
   font-size: 1.5em;
   line-height: 1.4rem;
   margin: 0;
-  padding: 1em $padding;
+  padding: .8em;
 }
 
 .site-title span {
@@ -27,6 +27,7 @@
 
   .site-title {
     font-size: 1.2em;
+    padding: 1em $padding;
   }
 
   .site-title span {
@@ -38,8 +39,8 @@
 /* Main menu */
 
 .site-navigation {
-  margin: 0 2.5rem 0 auto;
-  padding-top: 1.4em;
+  margin: 0 .6rem 0 auto;
+  padding-top: .9em;
 }
 
 .site-navigation ul {

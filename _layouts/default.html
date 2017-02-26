@@ -46,27 +46,45 @@
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
     <script>
-      var current_width = window.outerWidth;
-      var x_colors = {{ page.x_colors }};
-      {% if page.y_colors %}var y_colors = {{ page.y_colors }}{% else %}var y_colors = {{ page.x_colors }}{% endif %};
-      var variance = Math.floor((Math.random() * 40) + 40)/100;
-      function addTriangleTo(target) {
-        var pattern = Trianglify({
-          width: window.innerWidth,
-          height: window.innerHeight,
-          x_colors: x_colors,
-          y_colors: y_colors,
-          variance: variance
-        });
-        target.style['background-image'] = 'url(' + pattern.png() + ')';
-      }
-      addTriangleTo(document.querySelector('body'));
-      window.addEventListener("resize", function() {
-        if (current_width != window.outerWidth) {
-          current_width = window.outerWidth;
-          addTriangleTo(document.getElementById('hero-image'));
-        };
-      });
+      (function() {
+        var current_width = window.outerWidth;
+        var x_colors = {{ page.x_colors }};
+        {% if page.y_colors %}var y_colors = {{ page.y_colors }}{% else %}var y_colors = {{ page.x_colors }}{% endif %};
+        var variance = Math.floor((Math.random() * 40) + 40)/100;
+        function addTriangleTo(target) {
+          var pattern = Trianglify({
+            width: window.innerWidth,
+            height: window.innerHeight,
+            x_colors: x_colors,
+            y_colors: y_colors,
+            variance: variance
+          });
+          target.style['background-image'] = 'url(' + pattern.png() + ')';
+        }
+        // Add background to body on page load
+        addTriangleTo(document.querySelector('body'));
+        // Set up window resize throttler
+        var resizeTimeout;
+        function resizeThrottler() {
+          // ignore resize events as long as an actualResizeHandler execution is in the queue
+          if ( !resizeTimeout ) {
+            resizeTimeout = setTimeout(function() {
+              resizeTimeout = null;
+              actualResizeHandler();
+              // The actualResizeHandler will execute at a rate of 15fps
+            }, 66);
+          }
+        }
+        function actualResizeHandler() {
+          // handle the resize event
+          if (current_width != window.outerWidth) {
+            current_width = window.outerWidth;
+            addTriangleTo(document.querySelector('body'));
+          };
+        }
+        // Add background to body on window resize
+        window.addEventListener("resize", resizeThrottler, false);
+      }());
     </script>
 
   </body>

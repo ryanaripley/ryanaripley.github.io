@@ -11,7 +11,7 @@ I restart for the first time, and now I have wireless. On to the good stuff.
 Next I grab a few of the applications I need that are found in the official sources:
 
 ```sh
-sudo apg-get update
+sudo apt-get update
 sudo apt-get install chromium-browser gimp inkscape vlc
 ```
 

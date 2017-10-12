@@ -29,7 +29,7 @@ gems:
   - octopress-autoprefixer
 
 # Server Config options
-livereload: true     # You no longer need to include --livereload
+# livereload: true     # You no longer need to include --livereload
 
 # Build settings
 markdown: kramdown

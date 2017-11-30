@@ -12,7 +12,7 @@ Find me on [Twitter](https://twitter.com/ryanaripley), [GitHub](https://github.c
         
 ### Leave a message
 
-<form method="POST" action="http://formspree.io/ryanaripley@gmail.com">
+<form method="POST" action="https://formspree.io/ryanaripley@gmail.com">
 
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_next" value="{{site.url}}/thanks" />

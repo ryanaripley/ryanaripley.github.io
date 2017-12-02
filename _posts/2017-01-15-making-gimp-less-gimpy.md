@@ -2,7 +2,7 @@
 title: Making Gimp, well, less gimpy
 tags: 
   - Linux
-  - Gimp'
+  - Gimp
 x_colors: "['#000000', '#30271c', '#725c43', '#30271c', '#000000']"
 accent_color: '#725c43'
 ---

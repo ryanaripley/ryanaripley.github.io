@@ -5,6 +5,7 @@ x_colors: "['#000000', '#282e1f', '#809463', '#282e1f', '#000000']"
 accent_color: '#809463'
 blurb: "Helping a nonprofit art gallery find ways to use technology to advance their mission."
 skills: "Logo design, WordPress, CRM integration"
+filter: [wordpress, branding, design]
 ---
 
 [Banfill-Locke Center for the Arts][banfill], established in 1979, is a nonprofit community art center located on the Mississippi River in an historic farmhouse and tavern. 

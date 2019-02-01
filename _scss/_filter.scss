@@ -1,0 +1,15 @@
+.filter-buttons {
+  text-align: center;
+}
+
+.filter-item {
+  max-height: 20em;
+  position: relative;
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+
+.filter-item-hidden {
+  max-height: 0;
+  opacity: 0;
+}

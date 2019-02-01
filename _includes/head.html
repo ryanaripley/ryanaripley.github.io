@@ -25,7 +25,7 @@
 			--color-main: {% if page.accent_color %}{{ page.accent_color }}{% else %}#1d9ae2{% endif %};
 		}
 	</style>
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" type="text/css" href='{{ "/css/main.css" | prepend: site.baseurl }}'>
 	{% if page.style %}
 		<style type="text/css">
 			{{ page.style }}

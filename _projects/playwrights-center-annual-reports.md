@@ -6,6 +6,7 @@ blurb: "Celebrating the work of a nonprofit arts service organization."
 skills: "Web design and development"
 x_colors: "['#054f7d', '#00a7cf', '#efe348', '#861a54']"
 accent_color: "#00a7cf"
+filter: [design]
 ---
 For the past three years, I've designed the annual reports for the [Playwrights' Center][pwc], an organization that serves playwrights through new play development and financial support. 
 

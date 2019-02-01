@@ -5,6 +5,7 @@ x_colors: "['#000000', '#d85016', '#000000']"
 accent_color: '#d85016'
 blurb: "Creating a portfolio site for a freelance illustrator and designer."
 skills: "Web design and development, Jekyll"
+filter: [branding, design]
 ---
 
 This is a website I created for my wife Marit to showcase her work as an illustrator, painter, and graphic designer.

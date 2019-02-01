@@ -5,6 +5,7 @@ blurb: "Establishing an online home for an independently produced web series."
 skills: "Logo design, WordPress"
 x_colors: "['#000000','#842715', '#dc4123', '#66000A','#000000']"
 accent_color: '#dc4123'
+filter: [wordpress, branding, design]
 ---
 Theater People is a comedy web series, filmed in Minneapolis/St. Paul, about the world of independent theater and the people who occupy it. 
 

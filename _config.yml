@@ -34,6 +34,8 @@ gems:
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: rouge
+excerpt_seperator: <!--more-->
 
 sass:
   sass_dir: _scss

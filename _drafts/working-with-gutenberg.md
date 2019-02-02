@@ -1,9 +1,6 @@
 ---
-title: Working with WordPress
+title: Working with Gutenberg
 ---
-
-
-
 
 ## Advantages
 

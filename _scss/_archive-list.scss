@@ -24,8 +24,8 @@
 	}
 }
 
-.archive-item:last-of-type .archive-link {
-	border: 0;
+.archive-item:first-of-type .archive-link {
+	border-top: 1px solid $color-gray;
 }
 
 .archive-item .archive-link:hover,

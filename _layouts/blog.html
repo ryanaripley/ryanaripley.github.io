@@ -8,7 +8,7 @@ layout: default
 					<div class="archive-info">
 						<h3>{{ post.title }}</h3>
 						<div class="archive-subtitle">{{ post.date | date: '%B %d, %Y' }}{% if post.tags %} | {% include tag_list.html tags=post.tags %}{% endif %}</div>
-						<div class="archive-description">{{ post.excerpt | strip_html }}</div>
+						<div class="archive-description">{{ post.content | strip_html | truncatewords: 20 }}</div>
 					</div>
 				</a>
 			</li>{% endfor 

@@ -1,14 +1,13 @@
 ---
 title: Adding a new local WordPress site using WSL
-x_colors: "['#DE4815', '#CECB95', '#0F4885', '#061B37']"
-accent_color: "#DE4815"
 tags: 
   - WordPress
   - WSL
+x_colors: "['#DE4815', '#CECB95', '#0F4885', '#061B37']"
+accent_color: "#DE4815"
 ---
-Having switched to a Lenovo Flex 14 running Windows 10 as my primary development machine, I've had to adjust my process for building WordPress themes and plugins locally.
 
-<!--more-->
+Having switched to a Lenovo Flex 14 running Windows 10 as my primary development machine, I've had to adjust my process for building WordPress themes and plugins locally.
 
 ## Pre-requisites
 

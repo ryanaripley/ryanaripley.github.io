@@ -5,7 +5,6 @@ accent_color: '#6bb74d'
 tags: 
   - Linux
 ---
-
 I recently started fresh with a new install of [Linux Mint][Linux Mint], and I wanted to record my current web development environment.
 
 ## Hardware

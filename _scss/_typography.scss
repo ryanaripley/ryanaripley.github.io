@@ -70,16 +70,27 @@ ul, ol {
 }
 
 blockquote {
-  border-left: .6em solid $color-primary;
-  border-left: .6em solid var(--color-main);
-  color: $color-gray;
+  @include box-shadow;
+  background: var(--color-main);
+  color: white;
+  display: block;
   font-family: $font-primary;
   font-style: italic;
   font-weight: $font-primary-weight;
-  margin-left: .5em;
-  padding-left: 1.5em;
+  padding: 2em 7%;
+  margin: .5em 0 2em;
+  transform: translateX(-7%);
+  width: 114%;
   em {
     font-style: normal;
+  }
+  p {
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .quote-attribution {
+    text-align: right;
   }
 }
 

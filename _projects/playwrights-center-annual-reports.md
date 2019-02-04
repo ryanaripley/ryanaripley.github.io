@@ -1,14 +1,25 @@
 ---
 title: "Playwrights' Center Annual Reports"
-thumbnail: pwc2015-thumb.jpg
+thumbnail: pwc2016_thumb.jpg
 accent_color: '#00a7cf'
 blurb: "Celebrating the work of a nonprofit arts service organization."
 skills: "Web design and development"
 x_colors: "['#054f7d', '#00a7cf', '#efe348', '#861a54']"
 accent_color: "#00a7cf"
 filter: [design]
+published: true
+weight: 4
 ---
-For the past three years, I've designed the annual reports for the [Playwrights' Center][pwc], an organization that serves playwrights through new play development and financial support. 
+Between fiscal years 2014 and 2017, I designed the annual reports for the [Playwrights' Center][pwc], an organization that serves playwrights through new play development and financial support. 
+
+## 2016-17 annual report
+
+For the 2016-17 report, I refined the design from the previous year, updating it to match the graphic design of that season's print materials.
+
+{% include browser_example.html desktop="pwc-2016-17-desktop.jpg" mobile="pwc-2016-17-mobile.jpg" alt="Playwrights' Center 2016-17 Annual Report" %}
+
+<a href="https://pwcenter.org/annual-report/2016-17" class="button">2016-17 report</a>
+
 
 ## 2015-16 annual report
 

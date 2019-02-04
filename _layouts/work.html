@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
-	{{ content }}
-		<div class="filter-buttons">
-			<button data-group="show-all" class="filter-button">Show all</button>
-			<button data-group="wordpress" class="filter-button">WordPress</button>
-			<button data-group="branding" class="filter-button">Branding</button>
-			<button data-group="design" class="filter-button">Design</button>
-		</div>
-		<ul id="filter-group" class="archive-list projects">{% for project in site.projects 
-		%}<li class="archive-item filter-item" data-filter="{{ project.filter }}">
+{{ content }}
+
+	<div class="filter-buttons">
+		<button data-group="show-all" class="filter-button">Show all</button>
+		<button data-group="wordpress" class="filter-button">WordPress</button>
+		<button data-group="branding" class="filter-button">Branding</button>
+		<button data-group="design" class="filter-button">Design</button>
+	</div>
+
+	<ul id="filter-group" class="archive-list projects">
+	{% assign projects_list = site.projects | sort : "weight" %}
+	{% for project in projects_list %}
+		{% if project.published == true %}
+			<li class="archive-item filter-item" data-filter="{{ project.filter }}">
 				<a href="{{ project.url }}" class="archive-link">
 					<figure class="archive-image">
 						<img src="{{ site.baseurl }}/assets/content/{{ project.collection }}/{{ project.title | slugify }}/{{ project.thumbnail }}" />
@@ -20,8 +25,12 @@ layout: default
 						<div class="archive-description">{{ project.blurb }}</div>
 					</div>
 				</a>
-			</li>{% endfor 
-	%}</ul>
+			</li>
+		{% endif %}
+	{% endfor %}
+	{% assign projects_list = nil %}
+	{% assign group = nil %}
+	</ul>
 
 
 

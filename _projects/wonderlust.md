@@ -6,6 +6,8 @@ skills: "Website design and development"
 x_colors: "['#000000','#505f09', '#aec738', '#505f09','#000000']"
 accent_color: '#aec738'
 filter: [design]
+published: true
+weight: 7
 ---
 In 2013, the [Playwrights&rsquo; Center][pwc] hosted a large fundraiser and live auction at the Aria event space in Minneapolis. 
 

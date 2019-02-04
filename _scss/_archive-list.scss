@@ -38,6 +38,10 @@
 .archive-image {
 	margin: 0 1em 1em 0;
 	max-width: 100%;
+
+	img {
+		@include box-shadow;
+	}
 }
 
 @media (min-width: $bp-medium) {

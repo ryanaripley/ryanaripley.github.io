@@ -6,6 +6,8 @@ accent_color: '#d85016'
 blurb: "Creating a portfolio site for a freelance illustrator and designer."
 skills: "Web design and development, Jekyll"
 filter: [branding, design]
+published: true
+weight: 3
 ---
 
 This is a website I created for my wife Marit to showcase her work as an illustrator, painter, and graphic designer.

@@ -57,3 +57,31 @@
 pre {
 	overflow-X: scroll;
 }
+
+.homepage-bio {
+	.homepage-photo {
+		text-align: center;
+	}
+	img {
+		@include box-shadow;
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+	}
+
+	@media (min-width: 800px) {
+		display: flex;
+		.homepage-content {
+			width: 70%;
+		}
+		.homepage-photo {
+			text-align: left;
+			padding-left: 1em;
+			width: 30%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

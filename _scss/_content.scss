@@ -59,29 +59,33 @@ pre {
 }
 
 .homepage-bio {
+	$photo-line-width: 10px;
 	.homepage-photo {
+		margin-bottom: 2em;
+		position: relative;
 		text-align: center;
+		z-index: 10;
 	}
 	img {
 		@include box-shadow;
 		border-radius: 50%;
 		height: 200px;
 		width: 200px;
+		z-index: 10;
 	}
 
-	@media (min-width: 800px) {
-		display: flex;
-		.homepage-content {
-			width: 70%;
-		}
-		.homepage-photo {
-			text-align: left;
-			padding-left: 1em;
-			width: 30%;
-		}
-		img {
-			width: 100%;
-			height: auto;
-		}
+	.homepage-photo:before {
+		border-top: $photo-line-width solid var(--color-main);
+		border-bottom: $photo-line-width solid var(--color-main);
+		//top: 50%;	
+		content: "";
+		display: block;
+		height: $photo-line-width*3;
+		position: absolute;	
+		top: 50%;
+		transform: translateY(-$photo-line-width*3/2);
+		width: 100%;	
+		z-index: -10;
 	}
+
 }

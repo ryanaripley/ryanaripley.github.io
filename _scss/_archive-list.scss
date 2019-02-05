@@ -1,4 +1,5 @@
 .archive-list {
+	border-top: 1px solid $color-gray;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -24,9 +25,6 @@
 	}
 }
 
-.archive-item:first-of-type .archive-link {
-	border-top: 1px solid $color-gray;
-}
 
 .archive-item .archive-link:hover,
 .archive-item .archive-link:target {

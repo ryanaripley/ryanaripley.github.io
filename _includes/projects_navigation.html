@@ -1,0 +1,24 @@
+{% assign projects_list = site.projects | sort : "weight" %}
+  {% assign i = 0 %}
+  {% assign current = null %}
+  {{ proj }}
+  {% for project in projects_list %}
+    {% if project.slug == page.slug  %}
+      {{ project.title }}
+      {% assign current = i %}
+      {{ current }}
+    {% endif %}
+    {% assign i = i | plus:1 %}
+  {% endfor %}
+  <nav class="archive-navigation">
+    {% assign prev = current | minus:1 %}
+    {% assign next = current | plus:1 %}
+    {% if projects_list[prev].url %}
+      <a class="prev" href="{{ projects_list[prev].url }}">&larr; {{ projects_list[prev].title }}</a>
+    {% endif %}
+    {% if projects_list[next].url %}
+      <a class="next" href="{{ projects_list[next].url }}">{{ projects_list[next].title }} &rarr;</a>
+    {% endif %}
+  </nav>
+  {% assign projects_list = nil %}
+  {% assign group = nil %}

@@ -6,4 +6,8 @@ layout: default
 
 {{ content }}
 
-{% include archive_navigation.html %}
+{% if page.collection == 'projects' %}
+  {% include projects_navigation.html %}
+{% else %}
+  {% include archive_navigation.html %}
+{% endif %}

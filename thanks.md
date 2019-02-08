@@ -5,7 +5,7 @@ permalink: /thanks/
 x_colors: "['#000000', '#602060', '#d98cd9', '#602060', '#000000']"
 accent_color: '#ac39ac'
 ---
-<p class="highlight">I'll get back to you as soon as I can.</p>
+<p class="lead-paragraph">I'll get back to you as soon as I can.</p>
 
 <ul>
   <li>Twitter <a href="https://twitter.com/ryanaripley">@ryanaripley</a></li>

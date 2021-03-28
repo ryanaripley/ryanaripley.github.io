@@ -9,7 +9,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.1)
     execjs (2.7.0)
-    ffi (1.9.14)
+    ffi (1.15.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     jekyll (3.2.1)
